@@ -1,0 +1,63 @@
+/* The con1 */
+.con {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 17px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.con input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmarkR {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.con:hover input ~ .checkmarkR {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.con input:checked ~ .checkmarkR {
+    background-color: #cc9900;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmarkR:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.con input:checked ~ .checkmarkR:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.con .checkmarkR:after {
+ 	top: 6px;
+	left: 5px;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background: white;
+}

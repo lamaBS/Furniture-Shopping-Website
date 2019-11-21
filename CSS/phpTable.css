@@ -1,0 +1,59 @@
+#t1{
+
+
+   height:180px;
+ border: 1px solid black;
+ text-align: center;
+}
+
+#t1 tr{
+	
+}
+
+#t1 th{
+background-color: #800000;
+color :white;
+margin: 22px;
+
+}
+
+#t1 tr:nth-child(even){
+background-color:#f0f2f4;
+
+}
+
+#t1 tr:hover {
+
+background-color:#b3b3b3;
+color: white;	
+}
+#t2{
+
+ height:180px;
+   
+ border: 1px solid black;
+ text-align: center;
+}
+
+#t2 tr{
+	padding-top: 12px;
+    padding-bottom: 12px; 
+}
+
+#t2 th{
+background-color: #800000;
+color :white;
+margin: 22px;
+
+}
+
+#t2 tr:nth-child(even){
+background-color:#f0f2f4;
+
+}
+
+#t2 tr:hover {
+
+background-color:#b3b3b3;
+color: white;	
+}

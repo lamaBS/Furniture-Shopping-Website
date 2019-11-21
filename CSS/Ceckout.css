@@ -1,0 +1,33 @@
+.contant{
+border: 3px dotted  #cc9900;
+ position: absolute;
+	   border-radius: 10px;
+ left: 30%;
+  
+}
+a{
+	
+	
+	color:gray;
+}
+h1{
+font-size:22px;	
+color:#cc9900;	
+}
+tr{
+text-align:left; 
+color:#cc9900;
+padding:4px;
+font-size:18px;
+padding-top:10px;
+
+}
+
+button{
+
+border: 3px dotted  #cc9900;
+color:#cc9900;
+outline-color: #cc9900;
+background-color: white;
+font-size:20px;
+}
